@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Architecture"
+    url: /pages/architecture.html
+  - title: "Lighting"
+    url: /pages/lighting.html
+  - title: "Hybrid Rendering"
+    url: /pages/hybrid-rendering.html
