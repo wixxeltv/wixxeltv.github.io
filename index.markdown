@@ -92,8 +92,8 @@ The engine copies the Depth Buffer (Blit) after the opaque pass, allowing transp
 
 ### Tech Stack
 
-* **Language:** C++ 17
+* **Language:** C++
 * **Graphics API:** OpenGL ES 3.0 (Loader: GLAD)
 * **Maths:** GLM (OpenGL Mathematics)
-* **Windowing & Events:** SDL2
+* **Windowing & Events:** SDL3
 * **Assets:** Assimp (3D Models), Stb_image (Textures)
