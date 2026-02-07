@@ -1,8 +1,8 @@
 title: 3D Engine
 description: OpenGL C++ / Deferred Rendering
-url: "" 
+url: "https://wixxeltv.github.io"
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin: "neon"
 
@@ -10,22 +10,22 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 author:
   name: "Montano Matteo"
-
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wixxeltv"
+
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
